@@ -1,0 +1,12 @@
+.a-primary{
+    color:black;
+  }
+  .container-full{
+    margin:-8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(247, 247, 247);
+    color: rgb(34, 34, 34);
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+  }

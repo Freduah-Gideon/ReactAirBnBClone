@@ -1,0 +1,52 @@
+.searchForm{
+    background-color: white;
+    border-radius: 50px;
+    width: max-content;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    cursor: pointer;
+}
+.hide{
+    display: none !important;
+}
+.group-form{
+    width: max-content;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    cursor: pointer;
+}
+.form-row{
+    border-radius: inherit;
+    width: max-content;
+    overflow: hidden;
+    padding:10px 40px;
+    font-size: 15px !important;
+    position: relative;
+    border-right: 1px solid rgba(0,0,0,.5);
+
+}
+.form-row:hover{
+    background-color: rgba(228, 228, 228);
+}
+.form-row > *{
+    margin:0;
+    display: block;
+}
+.form-input{
+    height: 20px;
+    box-shadow: 0px 0px 2px 0px;
+    padding: 0px !important
+}
+.form-row-p-first{
+    font-weight: bold;
+
+}
+.form-row-p-last{
+  /* margin-top: 10px; */
+  padding-top: 15px;
+  color: rgba(0,0,0,.5);
+}
+.form-row{
+   background-color: white;
+   border-radius: 30px;
+}
