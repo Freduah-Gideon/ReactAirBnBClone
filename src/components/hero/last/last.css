@@ -1,0 +1,71 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.last{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+.language-div{
+    color: white;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    padding: 0px 10px
+}
+.language-div:hover{
+    background-color: rgba(255,255,255,.2);
+    cursor: pointer;
+}
+.language-div > *{
+    margin: 0px 5px;
+
+}
+.userContainer{
+    background-color: white;
+    position: relative;
+    width: max-content;
+    border-radius: 500px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    padding:0 10px;
+}
+
+.avatarContainer{
+    width: max-content;
+    position: relative;
+    border-radius: 10px;
+}
+
+.avatar{
+    margin-top: 5px;
+    margin-left:20px;
+    width: 30px;
+    border-radius: 50px;
+}
+.notify-count{
+    position: absolute;
+    right: 0;
+    width: max-content;
+    border:3px solid red;
+    background-color: white;
+    color: red;
+    top:-5px;
+    border-radius: 5000px;
+}
+.notify-count > p{
+    margin:0;
+
+}
+.become-a-host:hover{
+    background-color: rgba(255,255,255,.2);
+}
+.become-a-host{
+    width: max-content;
+    border-radius: 20px;
+    padding: 10px 15px;
+}

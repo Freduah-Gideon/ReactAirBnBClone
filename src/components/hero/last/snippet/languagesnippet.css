@@ -1,0 +1,20 @@
+ .snippet{
+    background-color: white;
+    border-radius: 5px;
+    position: absolute;
+}
+.language-snippet{
+    right: 100px;
+}
+.language-snippet > div >*,.userDetailsSnippet{
+    margin:0px 5px;
+    display: inline-block;
+}
+.language-snippet > div, .userDetailsSnippet > div{
+    padding:10px 10px;
+    
+}
+.language-snippet > div:hover,.userDetailsSnippet > div:hover{
+    cursor: pointer;
+    background-color: rgba(133, 131, 131, 0.2);
+}

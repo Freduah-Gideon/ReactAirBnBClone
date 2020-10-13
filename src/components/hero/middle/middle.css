@@ -1,0 +1,22 @@
+.middle{
+    display: flex;
+    justify-content: center;
+    width: max-content;
+}
+.middle > p{
+    margin: 10px 10px;
+    cursor: pointer;
+}
+.middle > p > *:hover{
+    color: grey;
+}
+.middle > *{
+    color: white;
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+.middle-link{
+    text-decoration: none;
+    color: white;
+}
