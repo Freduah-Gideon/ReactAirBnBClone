@@ -1,0 +1,10 @@
+.rightDiv{
+    width: 550px;
+    margin-left: 100px;
+
+}
+.rightMessage {
+    font-size: 20px;
+    color: rgba(0,0,0,.5);
+    font-weight: lighter;
+}

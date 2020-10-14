@@ -1,0 +1,28 @@
+.goNearDiv{
+    position: absolute;
+    width: 400px;
+    color: white;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+    padding:0px 40px 40px;
+    bottom: 0;
+}
+
+.goNearText{
+    font-weight: bolder;
+    font-size: 30px;
+}
+.goNearMoreText{
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+.goNearExplore{
+    color: black;
+    background-color: white;
+    padding:10px 10px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.goNearExplore:hover{
+    background-color: rgba(255,255,255,.8);
+}

@@ -1,0 +1,8 @@
+#more{
+    background-color: black;
+    color: white !important;
+    height: 800px;
+    margin:-8px;
+    overflow: hidden;
+    position: relative;
+}

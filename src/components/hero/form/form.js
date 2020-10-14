@@ -3,8 +3,15 @@ import ReactDOM from 'react-dom'
 import './form.css'
 
 export default class RoomSearchForm extends Component {
+    constructor(){
+        super()
+        this.state = {
+            guestCount : 'Add'
+        }
+    }
     render() {
         return (
+            <section>
             <form className='searchForm'>
                 <div className='form-row'>
                     <p className='form-row-p-first'>Location</p>
@@ -26,13 +33,14 @@ export default class RoomSearchForm extends Component {
                         <p className='form-row-p-first'>Check Out</p>
                         <p className='form-row-p-last'>Add Dates</p>
                     </div>
-                    <div className='form-row'>
+                    <div className='form-row' onClick={this.props.toggleGuestChildren}>
                         <p className='form-row-p-first'>Guests</p>
-                        <p className='form-row-p-last'>Add guests</p>
+                        <p className='form-row-p-last'>{this.state.guestCount} guests</p>
                     </div>
                 </div>
             </form>
 
+            </section>
         )
     }
 }

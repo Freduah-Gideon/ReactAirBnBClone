@@ -35,7 +35,7 @@ export default class UserDetailsSnippet extends Component {
     }
     render() {
         return (
-            <div className='snippet userDetailsSnippet' style={{display : this.props.DetailVisibility}} id='userDetailsSnippet'>
+            <div className='snippet userDetailsSnippet hide' style={{display : this.props.DetailVisibility}} id='userDetailsSnippet'>
             {this.render_lists()}
 
             </div>

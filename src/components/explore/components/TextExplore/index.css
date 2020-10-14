@@ -1,0 +1,35 @@
+.textExperienceDiv{
+    color: white !important;
+    position: relative;
+    height: 200px;
+    overflow: hidden;
+}
+.textExperienceFirstText{
+    width: 500px;
+    position: absolute;
+    top:20px;
+    left: 50px;
+}
+.textExperienceFirstText > p{
+    font-size: 35px;
+    margin:0;
+    font-weight: bolder;
+}
+.textExperienceFirstText > h3{
+    font-weight: lighter;
+}
+.textExperienceSecondButton{
+    position: absolute;
+    top:20px;
+    right: 20px;
+    border:1px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.textExperienceSecondButton:hover{
+background-color: gray;
+}
+.textExperienceSecondButton > p{
+    margin:0;
+    padding:10px
+}

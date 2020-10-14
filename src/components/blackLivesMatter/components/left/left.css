@@ -1,0 +1,25 @@
+.leftDiv{
+    width: 500px;
+    padding: 10px;
+}
+.leftDiv > *{
+    margin:0;
+}
+
+.leftMessage{
+    padding:10px;
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+.leftLink{
+    border:1px solid black;
+    width: max-content;
+    padding: 10px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+.leftLink > a{
+    color: black;
+    text-decoration: none;
+}

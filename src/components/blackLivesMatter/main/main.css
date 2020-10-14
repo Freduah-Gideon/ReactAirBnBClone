@@ -1,0 +1,6 @@
+.messageContainer{
+    position: relative;
+    display: flex;
+    width: max-content;
+    margin:auto;
+}

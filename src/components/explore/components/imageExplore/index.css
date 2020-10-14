@@ -1,0 +1,37 @@
+
+.exploreImgDiv1{
+    width: 450px;
+    overflow: hidden;
+    border-radius: 20px;
+}
+.exploreImgDiv1 > a {
+    width: inherit;
+}
+.exploreImgDiv1 > a > img{
+    width: inherit;
+}
+
+.exploreImgDivMany{
+    display: flex;
+    margin-left: 100px;
+}
+.exploreImgDiv2 > div{
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden; 
+    margin: 0px 10px;
+}
+.exploreImgDiv3 {
+    position: absolute;
+    right: 0;
+    width: 620px;
+}
+
+.imageExplore{
+    display: flex;
+    top:150px;
+    left: 50px;
+    position: absolute;
+    justify-content: center;
+    /* margin-top: -20px; */
+}
